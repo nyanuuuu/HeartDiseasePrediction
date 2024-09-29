@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CardioCare | Heart Disease Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <style>
+        body {
+            background-color: hsl(222, 54%, 68%);
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .header .btn { display: none; }
+
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding-block: 16px;
+            z-index: 4;
+        }
+
+        .header.active {
+            position: fixed;
+            background-color: var(--rich-black-fogra-29);
+            animation: headerActive 0.5s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center;">Heart Disease Guide</h1>
+        <p style="text-align:center;">This is a comprehensive guide to heart disease, providing detailed information about the disease and its associated medical terminology.</p>
+        <br>
+        <h2>Heart Disease</h2>
+        <div style="text-align: center; margin-top: 10px">
+            
+        </div>
+        <h3>Overview</h3>
+        <p>Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella include blood vessel diseases, such as coronary artery disease; heart rhythm problems (arrhythmias); and heart defects you're born with (congenital heart defects), among others.<br>
+            The term "heart disease" is often used interchangeably with the term "cardiovascular disease." Cardiovascular disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain (angina), or stroke. Other heart conditions, such as those that affect your heart's muscle, valves, or rhythm, also are considered forms of heart disease.<br>
+            Many forms of heart disease can be prevented or treated with healthy lifestyle choices.</p>
+
+        <h3>Symptoms</h3>
+        <ul>
+            <li>Chest pain, chest tightness, chest pressure, and chest discomfort (angina)</li>
+            <li>Shortness of breath</li>
+            <li>Pain, numbness, weakness, or coldness in your legs or arms if the blood vessels in those parts of your body are narrowed</li>
+            <li>Pain in the neck, jaw, throat, upper abdomen, or back</li>
+        </ul>
+        <br>
+        <hr>
+        <h2>Glossary of Heart Disease Terms used in the dataset</h2>
+        <br>
+        <h4>1. Chest Pain</h4>
+        <h6><i>Layman's Explanation:</i></h6>
+        <p>
+            <h6><b>Typical Angina:</b></h6>
+            Layman: This is like a classic chest pain often seen in movies – a squeezing or pressure sensation in the chest that can radiate to the arms, neck, or jaw. It usually happens during physical exertion or stress and gets better with rest.
+        </p>
+        <p>
+            <h6><b>Atypical Angina:</b></h6>
+            Layman: It's chest discomfort, but not exactly like the movies. It might be sharp, burning, or more fleeting. The pain doesn't follow the classic pattern and might not be as strongly linked to physical activity.
+        </p>
+        <p>
+            <h6><b>Non-Anginal:</b></h6>
+            Layman: This is chest pain that doesn't match the usual heart attack symptoms. It could be discomfort, but not necessarily related to the heart. It might be caused by issues like indigestion or muscle strain.
+        </p>
+        <p>
+            <h6><b>Asymptomatic:</b></h6>
+            Layman: There's no chest pain at all. You might not feel anything unusual, but there could still be underlying heart issues detected through tests.
+        </p>
+        <h6><i>Detailed Explanation:</i></h6>
+        <p>
+            <h6><b>Typical Angina:</b></h6>
+            <p><b>Description:</b> Classic chest pain characterized by a sensation of heaviness, squeezing, or pressure in the chest.<br>
+            <b>Radiation:</b> Pain may radiate to the arms, neck, jaw, shoulder, or back.<br>
+            <b>Triggers:</b> Often triggered by physical exertion or emotional stress.<br>
+            <b>Relief:</b> Typically relieved by rest or nitroglycerin.<br>
+            </p>
+            <p>
+                <h6><b>Atypical Angina:</b></h6>
+                <b>Description:</b> Chest discomfort with features differing from typical angina.<br>
+                <b>Variability:</b> Pain may be sharp, stabbing, burning, or more fleeting.<br>
+                <b>Triggers:</b> May not be as clearly linked to physical exertion or stress.<br>
+                <b>Relief:</b> Response to rest or nitroglycerin may be less consistent.<br>
+            </p>
+            <p>
+                <h6><b>Non-Anginal:</b></h6>
+                <b>Description:</b> Chest pain not primarily associated with coronary artery disease.<br>
+                <b>Causes:</b> Could be related to indigestion, muscle strain, respiratory issues, or other non-cardiac factors.<br>
+                <b>Characteristics:</b> Discomfort may be present but lacks the typical features of angina.
+            </p>
+            <p>
+                <h6><b>Asymptomatic:</b></h6>
+                <b>Description:</b> Absence of chest pain or discomfort.<br>
+                <b>Detection:</b> Heart issues might be identified through diagnostic tests (like ECG, stress tests) despite the absence of symptoms.<br>
+                <b>Importance:</b> While not feeling pain, underlying cardiac conditions might still be present.
+            </p><br>
+    <h4>2.TRESTBPS</h4>
+
+<h6><i>Layman's Explanation:</i></h6>
+
+    <p>TRESTBPS is a medical term that stands for "resting blood pressure." It's the measure of the force of blood against the walls of your arteries when you are not doing any physical activity.
+        It helps doctors understand your baseline blood pressure, providing important information about your heart health during periods of rest.   
+</p> 
+
+     <h6><i>Detailed Explanation:</i></h6>
+    
+    <p><b>TRESTBPS Definition:</b> TRESTBPS is an abbreviation where "TREST" indicates "resting" and "BPS" stands for "blood pressure."<br>
+        <b>Resting Blood Pressure:</b> Blood pressure is the force exerted by blood against the walls of the arteries as the heart pumps it around the body. Resting blood pressure is measured when the body is at rest, not undergoing any physical activity or stress.<br>
+        <b>Measurement Units:</b> Blood pressure is typically recorded as two numbers. The first (systolic) measures the pressure when the heart contracts, and the second (diastolic) measures the pressure when the heart is at rest between beats. For example, a blood pressure reading of 120/80 mm Hg means a systolic pressure of 120 mm Hg and a diastolic pressure of 80 mm Hg.<br>
+        <b>Significance:</b> TRESTBPS is crucial in assessing cardiovascular health. It provides a baseline understanding of how well your heart is functioning when you are not actively engaged in any physical or stressful activity. Normal blood pressure levels indicate good heart health, while high or low levels may suggest potential issues that need attention.<br>
+        </p>
+    <br>
+
+    <h4>3.CHOL</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+    Serum Cholesterol: This is a measure of the amount of cholesterol in your blood.
+    mg/dL: It's the unit used to express the concentration of cholesterol in your blood.
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+    <b>Serum Cholesterol:</b><br>
+    Cholesterol is a fatty substance that your body needs for building cells and certain hormones. However, too much cholesterol in the blood can be a risk factor for heart disease.
+    Serum cholesterol is a blood test that measures the total amount of cholesterol in your blood. It includes both "good" cholesterol (HDL or high-density lipoprotein) and "bad" cholesterol (LDL or low-density lipoprotein).
+    HDL is considered good because it helps remove excess cholesterol from your bloodstream, while LDL is considered bad because it can contribute to the buildup of cholesterol in your arteries.<br>
+    <b>mg/dL (Milligrams per Deciliter):</b><br>
+    This is the unit used to express the concentration of substances, in this case, cholesterol, in your blood.
+    It represents the amount of cholesterol present in a specific volume of blood (one deciliter).
+    The measurement in milligrams per deciliter (mg/dL) helps healthcare professionals assess whether your cholesterol levels are within a healthy range or if there is an increased risk of cardiovascular problems.
+        
+</p>
+
+<h4>4.FBS</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+FBS, or Fasting Blood Sugar, is a measure of how much sugar (glucose) is in your blood after you've gone without eating or drinking anything (except water) for at least 8 hours.
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+    Elevated Fasting Blood Sugar levels, especially over a prolonged period, are associated with an increased risk of cardiovascular diseases, including coronary artery disease, heart attacks, and strokes. The connection between high blood sugar and heart disease is multifaceted:<br>
+    Atherosclerosis: Chronic high blood sugar levels can damage the inner lining of blood vessels (endothelium), leading to a condition called atherosclerosis. In atherosclerosis, fatty deposits, cholesterol, and other substances build up within the walls of arteries, forming plaque. This plaque can narrow the arteries and restrict blood flow to the heart, increasing the risk of heart attacks and other cardiovascular events.<br>
+    Inflammation: High blood sugar levels can trigger inflammation throughout the body, including in the blood vessels. Inflammatory processes contribute to the progression of atherosclerosis and increase the likelihood of plaque rupture, which can lead to blood clots and blockages in the arteries.<br>
+    Insulin Resistance: In individuals with insulin resistance (a hallmark of type 2 diabetes), cells become less responsive to the effects of insulin. As a result, the pancreas produces more insulin to compensate, leading to higher blood sugar levels. Insulin resistance is closely linked to obesity, high blood pressure, and abnormal blood lipid levels, collectively known as metabolic syndrome, all of which are risk factors for heart disease.
+</p>
+
+<h4>5.RESTECG</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+A Resting Electrocardiogram, or Resting ECG, is a painless and non-invasive test that helps doctors check the electrical activity of your heart while you're at rest.
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+A Resting Electrocardiogram (RestECG) is a diagnostic test used to assess the electrical activity of your heart while you're in a relaxed state, typically lying down. 
+During the procedure, small electrode patches are attached to specific areas on your chest, arms, and legs. 
+These electrodes pick up the electrical signals generated by your heart as it beats. The signals are then transmitted to a machine that records them as a series of waves on graph paper or a digital display. By analyzing the pattern of these waves, doctors can evaluate various aspects of your heart's function, such as its rhythm, rate, and any signs of abnormalities.
+</p>
+<h4>6.THALACH</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+"Thalach" is a shortened way of saying "Maximum Heart Rate" (MHR), which refers to the fastest rate your heart can beat during exercise. It's measured in beats per minute (bpm).
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+
+It's typically determined by subtracting a person's age from 220. However, it's essential to note that individual variability exists, and other factors such as fitness level, genetics, and underlying medical conditions can influence Thalach.
+During exercise, the heart rate increases to meet the oxygen demands of working muscles. Thalach represents the upper limit of this increase and serves as a reference point for determining exercise intensity. Exceeding Thalach during exercise can be indicative of maximal effort and is often associated with reaching peak physical performance.
+In clinical settings, Thalach is used for various purposes, including exercise prescription, cardiovascular fitness assessment, and monitoring during stress testing.
+</p>
+
+<h4>7.EXANG</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+"EXANG" typically refers to "exertional angina," which is a symptom of heart disease. Angina is a type of chest pain or discomfort that occurs when your heart muscle doesn't get enough oxygen-rich blood. "Exertional" means it happens during physical activity or when you're exerting yourself.
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+When your coronary arteries (the blood vessels that supply oxygen-rich blood to your heart) are narrowed or blocked due to plaque buildup, your heart muscle may not get enough oxygen during exertion. This shortage of oxygen can cause chest pain, pressure, tightness, or discomfort, which is known as exertional angina.
+Exertional angina is a common symptom of coronary artery disease, which is a condition where plaque builds up inside the coronary arteries, narrowing them and reducing blood flow to the heart. It's essential to talk to your doctor if you experience chest pain or discomfort during physical activity, as it could be a sign of heart disease.
+</p>
+
+<h4>8.OLDPEAK</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+"OLDPEAK" typically refers to "Old Age" and "ST Depression with Exercise and Pain", which is a characteristic of certain types of heart disease, particularly coronary artery disease. 
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+With age, the blood vessels supplying the heart may become narrower due to the buildup of plaque (a mixture of fat, cholesterol, and other substances). This narrowing reduces blood flow to the heart muscle, which can lead to various heart-related conditions.
+The "ST segment" refers to a specific part of the electrical tracing on an electrocardiogram (ECG or EKG), which measures the heart's electrical activity. During exercise or when experiencing chest pain (angina), some people may show changes in the ST segment of their ECG. Specifically, "ST depression" means that the ST segment appears lower than usual compared to the baseline.
+</p>
+
+<h4>9.SLOPE</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+"SLOPE" often refers to a characteristic of the ST segment on an electrocardiogram (ECG or EKG). The ST segment is a portion of the ECG that represents the period between ventricular depolarization (when the heart muscle contracts) and repolarization (when the heart muscle relaxes).
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+Upward Slope: If the ST segment slopes upwards, it could indicate that the heart muscle isn't getting enough oxygen-rich blood, which may be a sign of coronary artery disease or another heart problem. This upward slope might suggest that the heart is under strain or stress.
+Downward Slope: On the other hand, if the ST segment slopes downwards, it may also indicate problems with the heart's blood supply. This downward slope might suggest that the heart muscle isn't getting enough oxygen, potentially due to narrowed or blocked arteries.
+Flat Slope: A flat ST segment could be normal or could indicate other issues with the heart's electrical activity. Sometimes, a flat ST segment is a sign of a previous heart attack or other heart conditions
+</p>
+
+<h4>10.THAL</h4>
+<h6><i>Layman's Explanation:</i></h6>
+<p>
+"THAL" is a term that often refers to "Thalium Stress Test" or "Thallium Scan". It is a medical test used to check how well blood flows to your heart muscle during exercise and at rest.
+</p>
+<h6><i>Detailed Explanation:</i></h6>
+<p>
+Thalium Stress Test involves injecting a small amount of radioactive substance called thallium into your bloodstream. Thallium is taken up by healthy heart muscle cells, so when your heart is working harder during exercise, it shows up as brighter spots on special imaging scans.
+It helps doctors diagnose coronary artery disease, which occurs when the arteries that supply blood to your heart become narrowed or blocked by plaque buildup. It's particularly useful for evaluating chest pain or discomfort, also known as angina, and for assessing the effectiveness of treatments for heart disease.
+</p>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
