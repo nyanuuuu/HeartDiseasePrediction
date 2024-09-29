@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Source+Sans+3&display=swap);
+
+body {
+  background-image: url('home_page_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.center-heading {
+  position: absolute;
+  top: 10%;
+  left: 21%;
+  transform: translate(-90%, -90%);
+  font-family: 'Oswald', sans-serif;
+  color: #a15309; /* Matching button color */
+}
+
+.belowtext {
+  position: absolute;
+  top: 11.5%;
+  left: 10.3%;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 15px;
+  color: #db7d12e1;
+  font-weight: bold; /* Make the text bold */
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.info {
+  color: #fcd8b6;
+  line-height: 1.5;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px; /* Adjusted font size */
+  background-color: rgba(0, 0, 0, 0.5); /* Faded shadow shade */
+  padding: 15px;
+  max-width: 600px; /* Adjusted max-width */
+  margin: 0 auto 20px; /* Center the box horizontally and add margin below */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #a15309;
+  color: rgb(223, 217, 172);
+  padding: 10px 30px; /* Adjust padding */
+  margin: 0 10px; /* Add margin between buttons */
+  border: none;
+  cursor: pointer;
+  font-size: 23px;
+  border-radius: 13px;
+  transition: background-color 0.5s;
+  font-family: 'Oswald', sans-serif; 
+  text-decoration: none;
+  display: flex;
+}
+
+.button:hover {
+  background-color: #c1560a;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button a {
+  text-decoration: none;
+  color: #fcd8b6;
+}
+
